@@ -1,51 +1,55 @@
 .title-index,
 .title {
-    text-align: center;
+  text-align: center;
 }
 
-.list {
-    padding: 15px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 0px solid black;
-    border-bottom: 0px solid black;
+body {
+  margin: 0px;
 }
 
 .lists {
-    box-sizing: border-box;
-    background-color: rgb(232, 232, 232);
-    padding: 20px;
-    margin: 5px;
-    border: 1px solid black;
+  box-sizing: border-box;
+  background-color: rgb(232, 232, 232);
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    background-color: rgb(182, 182, 182);
-    list-style-type: none;
+.navbar ul {
+  list-style-type: none;
+  background-color: grey;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
 
-a {
-    color: inherit;
+.navbar li {
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  background-color: rgb(61, 61, 61);
 }
 
 a.home-page-link {
-    color: blue;
-
+  color: blue;
 }
 
 .subheading {
-    text-align: center;
+  text-align: center;
 }
 
 .paragraph {
-    text-align: center;
-    background-color: rgb(232, 232, 232);
-    padding: 15px;
-    margin: 5px;
-    border: 1px solid black;
+  text-align: center;
+  background-color: rgb(232, 232, 232);
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid black;
 }
-
-
